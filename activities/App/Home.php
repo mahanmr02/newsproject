@@ -12,7 +12,7 @@ class Home{
         {
                 $db = new DataBase();
                 $setting = $db->select('SELECT * FROM websetting')->fetch();
-                $menus = $db->select('SELECT * FROM menus WHERE parent_id IS NULL')->fetchAll();
+                $menus = $db->select('SELECT * FROM menus')->fetchAll();
                 $topSelectedPosts = $db->select('SELECT  posts.*, (SELECT COUNT(*) FROM comments WHERE comments.post_id = posts.id) AS comments_count, (SELECT username FROM users WHERE users.id = posts.user_id) AS username, (SELECT name FROM categories WHERE categories.id = posts.cat_id) AS category FROM posts WHERE posts.selected = 1 ORDER BY created_at DESC LIMIT 0,3')->fetchAll();
 
                 $breakingNews = $db->select('SELECT * FROM posts WHERE breaking_news = 1 ORDER BY created_at DESC LIMIT 0,1')->fetch();
