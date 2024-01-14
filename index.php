@@ -20,7 +20,7 @@ define('DB_PASSWORD', '');
 define('MAIL_HOST', 'smtp.gmail.com');
 define('SMTP_AUTH', true);
 define('MAIL_USERNAME', 'myauthentication.1jan@gmail.com');
-define('MAIL_PASSWORD', 'sbkr xqmy zlpy dqol');
+define('MAIL_PASSWORD', '12345678987654321'); //16 character code
 define('MAIL_PORT', 587);
 define('SENDER_MAIL', 'myauthentication.1jan@gmail.com');
 define('SENDER_NAME', 'Jame-News');
