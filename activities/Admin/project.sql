@@ -111,10 +111,10 @@ CREATE TABLE `menus` (
 --
 
 INSERT INTO `menus` (`id`, `name`, `url`, `parent_id`, `created_at`, `updated_at`) VALUES
-(20, 'خانه اصلی', 'http://localhost/project/', NULL, '2022-04-12 17:34:21', NULL),
-(22, 'اقتصادی', 'http://localhost/project/show-category/15', 20, '2022-04-12 17:34:40', '2023-12-31 16:23:40'),
-(29, 'سیاسی', 'http://localhost/project/show-category/11', NULL, '2023-12-31 16:29:48', NULL),
-(30, 'خبری', 'http://localhost/project/show-category/13', NULL, '2024-01-03 12:59:55', NULL);
+(20, 'خانه اصلی', 'http://localhost/newsproject/', NULL, '2022-04-12 17:34:21', NULL),
+(22, 'اقتصادی', 'http://localhost/newsproject/show-category/15', 20, '2022-04-12 17:34:40', '2023-12-31 16:23:40'),
+(29, 'سیاسی', 'http://localhost/newsproject/show-category/11', NULL, '2023-12-31 16:29:48', NULL),
+(30, 'خبری', 'http://localhost/newsproject/show-category/13', NULL, '2024-01-03 12:59:55', NULL);
 
 -- --------------------------------------------------------
 

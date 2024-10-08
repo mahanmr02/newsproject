@@ -2,4 +2,4 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+)$ project/index.php [QSA,L]
+RewriteRule ^(.+)$ newsproject/index.php [QSA,L]
