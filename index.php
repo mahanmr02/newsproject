@@ -8,7 +8,7 @@ session_start();
 
 //config
 define('BASE_PATH', __DIR__);
-define('CURRENT_DOMAIN', currentDomain() . '/project');
+define('CURRENT_DOMAIN', currentDomain() . '/newsproject');
 define('DISPLAY_ERROR', true);
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'project');
